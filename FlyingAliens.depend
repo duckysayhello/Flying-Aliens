@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1715704484 source:c:\users\minh duc\desktop\project\flyingaliens\graphics.cpp
+	"game.h"
+	<iostream>
+
+1715704818 c:\users\minh duc\desktop\project\flyingaliens\game.h
+	"alien.h"
+	"rocket.h"
+	"moon.h"
+	"sound.h"
+	<string>
+	<fstream>
+	<sstream>
+
+1715704825 c:\users\minh duc\desktop\project\flyingaliens\alien.h
+	"graphics.h"
+	"rocket.h"
+
+1715704809 c:\users\minh duc\desktop\project\flyingaliens\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<string>
+	<vector>
+	<stdio.h>
+
+1715704796 c:\users\minh duc\desktop\project\flyingaliens\rocket.h
+	"graphics.h"
+	<iostream>
+	<vector>
+
+1715704831 c:\users\minh duc\desktop\project\flyingaliens\moon.h
+	"graphics.h"
+	<vector>
+
+1715756244 c:\users\minh duc\desktop\project\flyingaliens\sound.h
+	<SDL_mixer.h>
+	<string>
+	"graphics.h"
+
+1715759043 source:c:\users\minh duc\desktop\project\flyingaliens\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"graphics.h"
+	"game.h"
+	"alien.h"
+
+1715424213 source:c:\users\minh duc\desktop\project\flyingaliens\menu.cpp
+
+1715704941 source:c:\users\minh duc\desktop\project\flyingaliens\alien.cpp
+	"alien.h"
+	"graphics.h"
+	<stdio.h>
+	<iostream>
+
+1715756069 source:c:\users\minh duc\desktop\project\flyingaliens\game.cpp
+	"game.h"
+	"graphics.h"
+	<iostream>
+
+1715704678 source:c:\users\minh duc\desktop\project\flyingaliens\moon.cpp
+	"moon.h"
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+
+1715704682 source:c:\users\minh duc\desktop\project\flyingaliens\rocket.cpp
+	"rocket.h"
+	"stdio.h"
+
+1715760894 source:c:\users\minh duc\desktop\project\flyingaliens\sound.cpp
+	"sound.h"
+	<stdio.h>
+	<SDL_mixer.h>
+	<iostream>
+	<string>
+
