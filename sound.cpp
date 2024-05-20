@@ -10,7 +10,7 @@ bool sound::init()
     string collide_path = "sound/collide.mp3";
     string click_path = "sound/click.mp3";
     string sound_path = "image/sound.png";
-    string music_path = "sound/blueheart.mp3";
+    string music_path = "sound/nyan.mp3";
 
 
     bool success = true;
@@ -87,7 +87,7 @@ void sound::playfly()
 {
     if (isPlay)
     {
-        Mix_PlayChannel( -1, fly, 0 );
+        Mix_PlayChannel( -1, fly, 0.5 );
     }
 }
 void sound::playclick()
@@ -110,7 +110,7 @@ void sound::playmusic()
     if (isPlaymusic)
     {
         Mix_PlayMusic(music,-1);
-        Mix_VolumeMusic(MIX_MAX_VOLUME/2);
+        Mix_VolumeMusic(MIX_MAX_VOLUME/5);
     }
 }
 void sound::musicstatus(bool x)

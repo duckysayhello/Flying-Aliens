@@ -5,8 +5,8 @@
 
 bool alien::init(bool skin, double scale)
 {
-    string path = "blue";
-    if(skin) path = "red";
+    string path = "red";
+    if(skin) path = "blue";
         posalien.getPos(100, SCREEN_HEIGHT / 2 - 10);
         ahead = 0;
         angle = 0;

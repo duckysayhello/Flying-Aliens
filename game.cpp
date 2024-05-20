@@ -392,7 +392,7 @@ void game::renderpausetab()
 {
 	graphics image;
 	image.Load("image/pausetab.png", 1);
-	image.Render((SCREEN_WIDTH - image.getWidth()) / 2, 225);
+	image.Render((SCREEN_WIDTH - image.getWidth()) / 2, 210);
 	image.free();
 }
 
@@ -532,7 +532,7 @@ void game::rendertrophy()
 	{
 		image.Load("image/trophy/bronze.png", 0.5);
 	}
-	image.Render(100, 275);
+	image.Render(93, 275);
 
 	image.free();
 }
