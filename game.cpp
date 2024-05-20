@@ -493,22 +493,19 @@ void game::bluexskin()
 
 bool game::changeskin(bool k)
 {
-	int x = event.button.x;
-    int y = event.button.y;
+	int x, y;
 	SDL_GetMouseState(&x, &y);
-	if (event.button.button == SDL_BUTTON_LEFT)
-	{
-	    if ((x > 205 && x < 245) && (y > 266 && y < 306))
+	if ((!k) && (x > 205 && x < 245) && (y > 266 && y < 306))
     {
-        cout<<"Redon"<<k<<endl;
+        //cout<<"Redon"<<endl;
         return true;
     }
-	if ((x > 255 && x < 295) && (y > 270 && y < 310))
+	else if ((k) && (x > 255 && x < 295) && (y > 266 && y < 306))
     {
-        cout<<"Redon"<<k<<endl;
-        return false;
-	}
-	}
+        //cout<<"Redon"<<endl;
+        return true;
+    }
+    else return false;
 }
 
 void game::rendergameover()
