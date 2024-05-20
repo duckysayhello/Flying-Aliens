@@ -526,7 +526,7 @@ void game::rendertrophy()
 	}
 	else if (score > 50)
 	{
-		image.Load("image/trophy/gold.png", 0.5);
+		image.Load("image/trophy/gold.pFng", 0.5);
 	}
 	else
 	{
@@ -549,11 +549,12 @@ bool game::checkReplay()
 {
 	int x, y;
 	SDL_GetMouseState(&x, &y);
-	if (x > (SCREEN_WIDTH - 100)/2 && x < (SCREEN_WIDTH + 100) / 2 && y > 380 && y < 380 + 60) //cai nut
-	{
-		return true;
-	}
-	return false;
+//	if (x > (SCREEN_WIDTH - 100)/2 && x < (SCREEN_WIDTH + 100) / 2 && y > 380 && y < 380 + 60) //cai nut
+//	{
+//		return true;
+//	}
+//	return false;
+    return IsWithinBounds(clicked, x, y, (SCREEN_WIDTH - 100)/2, 380, 100, 60);
 }
 
 void game::Restart()

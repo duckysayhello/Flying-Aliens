@@ -43,23 +43,23 @@ int main(int argc, char *argv[])
             while(g.isDie() && !g.isQuit() && !quit)
             {
                 g.takeInput();
-                if (ready == 1 &&g.userInput.Type == game::input::PLAY)
-                {
-                    if(g.checkReplay())
-                    {
-                        g.sound.playclick();
-                        ready=0;
-                    }
-                    g.userInput.Type = game::input::NONE;
-                }
+
                 g.renderbackground();
                 g.rocket.render();
                 g.moon.render();
                 if (ready)
                 {
+
                     g.alien.render(0);
                     g.alien.fall();
                     g.rendergameover();
+                    if(g.checkReplay())
+                    {
+                        g.sound.playclick();
+                        ready=0;
+                        g.clicked =0;
+
+                    }
                     if(g.rendertomenu())
                     {
                         menu=1;
@@ -73,10 +73,13 @@ int main(int argc, char *argv[])
                 }
                 else
                 {
+
                     if (menu)
                     {
+
                         g.rendermenubackground();
                         g.moon.render();
+
                         if (rep)
                         {
                             g.sound.playmusic();
@@ -131,7 +134,7 @@ int main(int argc, char *argv[])
                                 g.bluexskin();
                                 g.redskin();
                             }
-                            if (g.userInput.Type == game::input::SETTING)
+                            if (g.userInput.Type == game::input::PLAY)
                             {
                                 if (g.sound.checkSound())
                                 {
@@ -152,7 +155,7 @@ int main(int argc, char *argv[])
                     }
                     else
                     {
-                        if (g.userInput.Type == game::input::PLAY)
+                        if (g.userInput.Type == game::input::SETTING)
                         {
                             showmenu=!showmenu;
                             g.userInput.Type = game::input::NONE;
@@ -193,8 +196,15 @@ int main(int argc, char *argv[])
                                 }
                                 g.userInput.Type = game::input::NONE;
                             }
-                            g.moon.update();
+
                         }
+                        if (g.userInput.Type == game::input::PLAY)
+                        {
+                            g.Restart();
+                            ready = 1;
+                            g.userInput.Type = game::input::NONE;
+                        }
+                        g.moon.update();
                     }
                 }
                 g.display();
