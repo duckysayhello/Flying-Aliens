@@ -103,6 +103,7 @@ void sound::playcollide()
     if (isPlay)
     {
         Mix_PlayChannel(-1, collide, 0);
+        Mix_VolumeMusic(MIX_MAX_VOLUME/2);
     }
 }
 void sound::playmusic()
@@ -110,7 +111,7 @@ void sound::playmusic()
     if (isPlaymusic)
     {
         Mix_PlayMusic(music,-1);
-        Mix_VolumeMusic(MIX_MAX_VOLUME/5);
+        Mix_VolumeMusic(MIX_MAX_VOLUME/2);
     }
 }
 void sound::musicstatus(bool x)
