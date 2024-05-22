@@ -31,5 +31,5 @@ The gameplay are quite easy to use. I also add some more actions you can make wh
 - Sounds effect on Freesound
 - Music on Youtube
 
-### 👍🏻 My game is not for commercial so if you want to try playing my game, Welcome and thank you for choosing my game 👍🏻
+### 👍🏻 My game is not for commercial and there are still some bugs I'm trying to fix so if you want to try playing my game, Welcome and thank you for choosing my game 👍🏻
 ### 👾 NOW LET'S EXPLORE THE SPACE WITH YOUR CUTE LITTLE ALIEN 👾
