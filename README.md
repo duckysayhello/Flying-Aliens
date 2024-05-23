@@ -26,7 +26,7 @@ The gameplay are quite easy to use. I also add some more actions you can make wh
 🥲 My game can still have some bugs while playing, I'll try to fix them as soon as I can so you can play it better 🥰
 
 ### 🫰🏻 THANKS TO 🫰🏻
-- My senior Hoang Duc Duong for helping me with the game logic
+- My senior Hoang Duc Duong and some of my friends for helping me with the game logic
 - Some artist on Pinterest for the idea for the graphics
 - Sounds effect on Freesound
 - Music on Youtube
