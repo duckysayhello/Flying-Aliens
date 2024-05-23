@@ -5,7 +5,7 @@ This is my UET Game Coding Assignment 🎮 Using Codeblocks C++ and SDL2 🧑�
 ![My Image](https://github.com/duckysayhello/Flying-Aliens/blob/main/image/introduce.png)
 
 ### 🗣️ INTRODUCTION 🗣️
-My Code use the SDL2 library as the main tool to develop, with the help of my senior Hoang Duc Duong I've finished my game with the whole new look. The graphics are drawn by myself using pixilart.com 100%. In this game you will be a little alien in the large space, flying to explore this whole mysterious space, trying not to collide with the rockets all around the space. This is not only a game to entertain, but also can help you to learn how to focus not to stop the alien's adventure.
+My Code use the SDL2 library as the main tool to develop, with the help of my senior Duc Duong I've finished my game with the whole new look. The graphics are drawn by myself using pixilart.com 100%. In this game you will be a little alien in the large space, flying to explore this whole mysterious space, trying not to collide with the rockets all around the space. This is not only a game to entertain, but also can help you to learn how to focus not to stop the alien's adventure.
 
 ### 🎮 QUICK GAMEPLAY 🎮
 The gameplay are quite easy to use. I also add some more actions you can make while playing game:
@@ -26,7 +26,8 @@ The gameplay are quite easy to use. I also add some more actions you can make wh
 🥲 My game can still have some bugs while playing, I'll try to fix them as soon as I can so you can play it better 🥰
 
 ### 🫰🏻 THANKS TO 🫰🏻
-- My senior Hoang Duc Duong and some of my friends for helping me with the game logic
+- Mr.Quang Hieu and Mr.Xuan Truong and my class INT2215_21
+- My senior Duc Duong and some of my friends for helping me with the game logic
 - Some artist on Pinterest for the idea for the graphics
 - Sounds effect on Freesound
 - Music on Youtube
