@@ -4,6 +4,8 @@ This is my UET Game Coding Assignment 🎮 Using Codeblocks C++ and SDL2 🧑�
 
 [![Google Drive Thumbnail](https://github.com/duckysayhello/Flying-Aliens/blob/main/image/introduce.png)](https://drive.google.com/file/d/1oH_lP_Mgg7Tf5XRo9OxHxPJcXrE-SrF2/view?usp=sharing)
 
+// touch the image to see the quick gameplay //
+
 ### 🗣️ INTRODUCTION 🗣️
 My Code use the SDL2 library as the main tool to develop, with the help of my senior Duc Duong I've finished my game with the whole new look. The graphics are drawn by myself using pixilart.com 100%. In this game you will be a little alien in the large space, flying to explore this whole mysterious space, trying not to collide with the rockets all around the space. This is not only a game to entertain, but also can help you to learn how to focus not to stop the alien's adventure.
 
