@@ -26,6 +26,7 @@ The gameplay are quite easy to use. I also add some more actions you can make wh
 
 ### 🤏🏻 NOTES 🤏🏻
 🥲 My game can still have some bugs while playing, I'll try to fix them as soon as I can so you can play it better 🥰
+P/S: My repository have 2 contributors because I used my friend's laptop to code my game once when i forgot my laptop at home 🥰
 
 ### 🫰🏻 THANKS TO 🫰🏻
 - Mr.Quang Hieu and Mr.Xuan Truong and my class INT2215_21
